@@ -164,7 +164,7 @@ int	C_BeamQuadratic::DrawModel( int )
 	}
 
 	float scrollOffset = gpGlobals->curtime - (int)gpGlobals->curtime;
-	CMatRenderContextPtr pRenderContext(materials); //Fixed Code
+	CMatRenderContextPtr pRenderContext(materials); //Fixed Code Where identifier
 	pRenderContext->Bind(  pMat );
 	DrawBeamQuadratic( points[0], points[1], points[2], 13, color, scrollOffset );
 	return 1;
