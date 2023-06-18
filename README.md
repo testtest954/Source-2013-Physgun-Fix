@@ -1,4 +1,4 @@
-# Source-2013-Physgun-Fix
+# Source-2013-Physics gun-Fix
 Fixed Physgun like in gmod
 # Install
 Go To yourmodsource/sp or mp/src/game/server for physgun.cpp
